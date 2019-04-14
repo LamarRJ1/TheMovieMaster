@@ -1,0 +1,113 @@
+
+  <!-- Top navigation -->
+<nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+  <a class="navbar-brand col-sm-3 col-md-2 mr-0">
+       <span class="dasboard-text">Questionnaire Section</span>
+  </a>
+</nav>
+
+<!-- Sidebar navigation -->
+<div class="container-fluid">
+  <div class="row">
+
+    <nav class="col-md-2 d-md-block bg-light sidebar">
+      <div class="sidebar-sticky">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active">
+              <i class="fas fa-questions"></i>Questions
+            </a>
+          </li>
+		  <!-- Navigating to Recomendation Example -->
+		      <li class="nav-item">
+            <a class="nav-link">
+              <i class="fas fa-reccomendation"></i>Reccomendation Example
+            </a>
+          </li>
+          <!-- Calling SignOut() Api from AuthService -->
+          <li class="nav-item">
+            <a class="nav-link" (click)="authService.SignOut()">
+              <i class="fas fa-sign-out-alt"></i>Log out
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main content -->
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+      <div class="inner-adjust">
+
+				<div class="pt-3 pb-2 mb-3 border-bottom">
+					<h1 class="h2">Questionnaire</h1>
+				</div>
+				<!-- Questions -->
+				<div class="/qustion1">
+				<p>Select the Main Genres you are interested in.</p>
+				  <input type="checkbox" name="Action" value="Action"> Action<br>
+				  <input type="checkbox" name="Adventure" value="Adventure"> Adventure<br>
+				  <input type="checkbox" name="Animation" value="Animation"> Animation<br><br>
+				  <input type="checkbox" name="Dance" value="Dance"> Dance<br><br>
+				  <input type="checkbox" name="Comedy" value="Comedy"> Comedy<br><br>
+				  <input type="checkbox" name="Crime" value="Crime"> Crime<br><br>
+				  <input type="checkbox" name="Drama" value="Drama"> Drama<br><br>
+				  <input type="checkbox" name="History" value="History"> History<br><br>
+				  <input type="checkbox" name="Horror" value="Horror"> Horror<br><br>
+				  <input type="checkbox" name="Musical" value="Musical"> Musical<br><br>
+				  <input type="checkbox" name="Romance" value="Romance"> Romance<br><br>
+				  <input type="checkbox" name="Sci-fi" value="Sci-fi"> Sci-fi<br><br>
+				  <input type="checkbox" name="War" value="War"> War<br><br>
+				  <input type="checkbox" name="Westerns" value="Westerns"> Westerns<br><br>
+				</div>
+				
+				<div class="/qustion4">
+				<p>Genres You dislike.</p>
+				  <input type="checkbox" name="Action" value="Action"> Action<br>
+				  <input type="checkbox" name="Adventure" value="Adventure"> Adventure<br>
+				  <input type="checkbox" name="Animation" value="Animation"> Animation<br><br>
+				  <input type="checkbox" name="Dance" value="Dance"> Dance<br><br>
+				  <input type="checkbox" name="Comedy" value="Comedy"> Comedy<br><br>
+				  <input type="checkbox" name="Crime" value="Crime"> Crime<br><br>
+				  <input type="checkbox" name="Drama" value="Drama"> Drama<br><br>
+				  <input type="checkbox" name="History" value="History"> History<br><br>
+				  <input type="checkbox" name="Horror" value="Horror"> Horror<br><br>
+				  <input type="checkbox" name="Musical" value="Musical"> Musical<br><br>
+				  <input type="checkbox" name="Romance" value="Romance"> Romance<br><br>
+				  <input type="checkbox" name="Sci-fi" value="Sci-fi"> Sci-fi<br><br>
+				  <input type="checkbox" name="War" value="War"> War<br><br>
+				  <input type="checkbox" name="Westerns" value="Westerns"> Westerns<br><br>
+				</div>
+				
+				<div class="/qustion2">
+				<p>Select the Sub Genres you are interested in.</p>
+				  <input type="checkbox" name="Biopics" value="Bike"> Biopics<br>
+				  <input type="checkbox" name="Chick Flicks" value="Car"> Chick Flicks<br>
+				  <input type="checkbox" name="Disaster" value="Boat"> Disaster<br><br>
+				</div>
+				
+				<div class="/qustion3">
+				<p>(Optional) List Your favorite actors. Note * Case Sensitive</p>
+				Name: <input type="text" /><br />
+				Name: <input type="text" /><br />
+				Name: <input type="text" /><br />
+				Name: <input type="text" /><br />
+				Name: <input type="text" /><br />
+				  
+				  
+				</div>
+				<div>
+				 <button type="button">Submit Answers</button> 
+				<p>Reccomended Movies</p>
+				 <p>what men want</p>
+				
+				</div>
+				<div>
+				<button type="button">Try again</button> 
+				</div>
+      </div>
+    </main>
+
+  </div>
+</div>
+
+
